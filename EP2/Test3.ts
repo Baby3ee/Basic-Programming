@@ -15,3 +15,4 @@ function grade(homework: number, midterm: number, final: number){
 }
 
 console.log(grade(60,20,20))
+
