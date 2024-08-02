@@ -17,20 +17,34 @@ function fixNumBer( x: number){
 }
 
 console.log(fixNumBer(80000)) 
+
+//console.log(y.toLocaleString()) เป็นการใส่ลูกน้ำให้ตัวเลข
+//console.log(y.toFixed) เพิ่มทศนิยม
+
+
+//const s : string = " 45 "
+//console.log(Number(s))  เป็นการเปลี่ยนจาก String  เป็น Number Nan(Not a Number)
+
+//const x: string = '46'
+//console.log(parseInt('46.95')) 
     
 //const str: string = " Rawiwan " เก็บตัวแปรแบบ string สามารถใช้ได้ทั้ง("",'')
     
 // const str: string = "Rawiwan" 
 // console.log(str.length) เป็นการนับตัวอักษร 
 
+
 // const str: string = "Hello" 
 // console.log(str.charAt(0))  เป็นการดึงตัวอักษรออกมา ตัวเเรกคือ 0
+
 
 // const str: string = "ณเดชณ์ ณ บางคน บางคนใจเดียว บางคนหลายใจ บางคนแคร์ แคร์บางคน เกิดบางแค เลยช่วยแม่ขายข้าวมันไก่"
 // console.log(str.charAt(str.length - 2)) เป็นการดึงตัวอักษรจากข้างหลัง -1 คือตัวแรก
 
+
 //const str: string = "Rawiwan Changda"
 //console.log(str.indexOf('R')) เป็นการหาเลขตัวอักษรว่าอยู่ตำแห่งไหน 0 หรือ 1 หรืออื่นๆภายในคำที่ต้องการหา
+
 
 //const str: string = "      ณเดชณ์ ณ บางแค เลยช่วยแม่ขายข้าวมันไก่        "
 //console.log(str.trim())  เป็นการเอาช่องว่างทั้งข้างหน้าและข้างหลังออก 
@@ -43,4 +57,4 @@ console.log(fixNumBer(80000))
 
 //const str: string = "Rawiwan Changda"
 //console.log(str.toLowerCase())    เปลี่ยนตัวอักษรเป็นตัวพิมพ์เล็ก
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
