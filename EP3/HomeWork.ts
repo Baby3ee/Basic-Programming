@@ -1,6 +1,6 @@
 function BMI(weight: number, height: number): string {
     // แปลงความสูงจากเซนติเมตรเป็นเมตร 
-     const heightInMeters = height / 100
+    //const heightInMeters = height / 100
     
     // คำนวณ BMI
     const bmi = weight / (height * height)
@@ -22,7 +22,7 @@ function BMI(weight: number, height: number): string {
 }
 
 // ทดสอบฟังก์ชัน
-console.log(BMI(70, 180))
+console.log(BMI(52, 1.63))
 
 
 
