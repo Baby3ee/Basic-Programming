@@ -1,4 +1,4 @@
-const  me =  {
+const  AboutMe =  {
     Name : "Degoo Mousi",
     Address : 24,
     Moo : 4,
@@ -7,7 +7,8 @@ const  me =  {
     District : "Wing",
     Province : "Londone",
     PostalCode : 12048,
-    Telephone : 2-256-3659-9,
-    Mobilephone : 95-788-9550,
+    Telephone : "02-256-3659-9",
+    Mobilephone : "095-788-9550",
     Email :"DeegooMousi2679@gmail.com"
 }
+
